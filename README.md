@@ -1,4 +1,5 @@
 <div style="text-align: justify">
+
 # Anotações do Livro Java Efetivo
 
 ## Capítulo 1 - Criar e destruir objetos
