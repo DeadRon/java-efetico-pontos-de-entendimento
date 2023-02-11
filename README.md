@@ -106,6 +106,8 @@ todos os parâmetros da classe) seja chamado. Exemplo do livro abaixo:
   ````
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A desvantagem do uso deste Pattern fica evidente à medida que a quantidade de parâmetros aumenta, pois isso torna o código difícil de ler. 
 Essa desvantagem pode induzir o usuário da api a chamar um dos construtores de forma errada, dessa forma pode ocorrer um erro em tempo de execução ao acessar um atributo que não foi inicializado devidamente ou da forma como era esperado.
+Atualmente é considerado um [**anti-pattern**](https://medium.com/@modestofiguereo/design-patterns-2-the-builder-pattern-and-the-telescoping-constructor-anti-pattern-60a33de7522e)
+devido as suas desvantagens.
 
 - **2 solução - Java Beans** 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consiste em usar um construtor vazio para utilizar os métodos setters para definir os atributos obrigatórios
